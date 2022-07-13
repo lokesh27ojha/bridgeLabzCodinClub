@@ -1,0 +1,32 @@
+
+step 1 - START.
+
+step 2 - check if folder backup is already exist. if yes,
+	then delete the existing folder
+
+step 3 - create new folder backup
+
+step 4 - check if folder review is already exist. if yes,
+	then delete the existing folder
+
+step 5 - create new folder review
+
+step 6 - move your review.sh file into the review folder
+
+step 7 - change present working directory as review folder
+
+step 8 - make files a.java b.js c.py d.html
+
+step 9 - for every file present in the review folder
+	get the extention of the file
+
+step 10 - check if the folder is already exist inside the backup folder. if yes,
+	remove the existing folder
+
+step 11 - create new folder inside the backup folder with file extention name.
+
+step 12 - move your files into the respective folder with same extention name.
+
+step 13 - end the loop started at step 8.
+
+step 14 - END.
