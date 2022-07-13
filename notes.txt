@@ -1,0 +1,47 @@
+
+CD - to change the directory
+
+ls - list all the content of the directory.
+	normal ls command will not show the hidden files.
+	use -a with ls to show the hidden files
+	use -l with ls to get the detailed format of all the files present
+
+pwd - to know the present working directory
+
+mkdir - make directories
+	we can also create nested folders. use -p with the command to create nested folders.
+	mkdir -p x/x1/x2/x3/x4
+
+touch - to create a new file
+	we can create multiple files at once if we give command with all the files
+	touch abc.java xyz.c pqr.py test.txt
+
+cd ../ - go one step back. here ../ represents one step.
+	if we have to go two steps or three steps back. use ../ as many times.
+	cd ../../ - to go two step back
+	cd ../../../ - to go two step back
+	cd without anything will take you to the home directory
+
+~ - it represents the home directory.
+	we can use ~ with many command
+	ls ~
+
+cp -r <source> <destination> - it is used to copy the files
+
+mv <source> <destination> - mv command is used to move the file from source to destination
+				it can also be used for renaming the file
+
+cat - this command is used to view the content of the file.
+
+nano - this is used to edit the file.
+	there are various editor.
+	we can use notepad or vim editor also.
+
+rm -rf <filename> -  is used to delete the file.
+			we can delete multiple files with this commands
+			rm -rf * - to clear all the files
+			rm -rf file1 file2 file3 -  to clear the mentioned files.
+
+grep - command is used to filtering the data
+	we can use grep command only on characters 
+
