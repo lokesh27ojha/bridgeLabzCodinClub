@@ -1,0 +1,23 @@
+Algorithm for main()
+--------------------
+step 1 - START
+
+step 2 - ask user input for a number
+
+step 3 - call the function table() and pass the number as parameter
+
+step 4 - STOP
+
+=================================================
+
+Algorithm for function table()
+------------------------------
+step 1 - START
+
+step 2 - repeat loop for i, starting from 1 to 10
+
+step 3 - calculate the multiplication 'num * i'
+
+step 4 - print the calculated multiplication
+
+step 5 - STOP 

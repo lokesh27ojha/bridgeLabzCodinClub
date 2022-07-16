@@ -8,7 +8,6 @@ do
     
     div=$((12-1+1))
     ranMon=$(($((RANDOM%$div))+1))
-    echo $ranYear $ranMon
 
     if [ $ranYear -eq 92 ]
     then
@@ -21,8 +20,10 @@ do
     fi
 done
 
+echo "for year 1992 random month and the number of people that have birthday in the same month"
 echo ${!birthMon92[@]}
 echo ${birthMon92[@]}
 echo
+echo "for year 1992 random month and the number of people that have birthday in the same month"
 echo ${!birthMon93[@]}
 echo ${birthMon93[@]}
